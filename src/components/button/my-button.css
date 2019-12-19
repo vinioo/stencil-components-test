@@ -3,13 +3,36 @@ button {
   height: 42px;
   background: #fafafa;
   border: none;
-  border-radius: 20px;
   cursor: pointer;
   outline: none;
+}
+
+.small {
+  width: 60px;
+}
+
+.large {
+  width: 180px;
 }
 
 button:hover {
   background: #dfdfdf;
   transition: all .08s ease-in;
   font-weight: bold;
+}
+
+.primary {
+  background: #1D4E89;
+}
+
+.accent {
+  background: #00B2CA;
+}
+
+.light {
+  background: #00B2CA;
+}
+
+.round {
+  border-radius: 20px;
 }

@@ -11,7 +11,11 @@ import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 
 export namespace Components {
   interface MyButton {
+    'color': 'primary' | 'accent' | 'light';
+    'shape': 'square' | 'round';
+    'size': 'small' | 'default' | 'large';
     'text': string;
+    'type': 'button' | 'reset' | 'submit';
   }
   interface MyComponent {
     /**
@@ -51,7 +55,11 @@ declare global {
 
 declare namespace LocalJSX {
   interface MyButton {
+    'color'?: 'primary' | 'accent' | 'light';
+    'shape'?: 'square' | 'round';
+    'size'?: 'small' | 'default' | 'large';
     'text'?: string;
+    'type'?: 'button' | 'reset' | 'submit';
   }
   interface MyComponent {
     /**
