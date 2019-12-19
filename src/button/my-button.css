@@ -1,0 +1,15 @@
+button {
+  width: 120px;
+  height: 42px;
+  background: #fafafa;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background: #dfdfdf;
+  transition: all .08s ease-in;
+  font-weight: bold;
+}
